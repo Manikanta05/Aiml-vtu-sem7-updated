@@ -8,16 +8,10 @@ y = y/100
 def sigmoid (x):
     return 1/(1 + np.exp(-x))
 
-
 def dersig(x):
     return x * (1 - x)
 
-
-e=7000
-lr=0.1 
-iln = 2 
-hln = 3
-oln = 1 
+e,lr,iln,hln,oln=7000,0.1,2,3,1
 
 wh=np.random.uniform(size=(iln,hln))
 bh=np.random.uniform(size=(1,hln))
@@ -25,21 +19,13 @@ wout=np.random.uniform(size=(hln,oln))
 bout=np.random.uniform(size=(1,oln))
 
 for i in range(e):
-    h1=np.dot(X,wh)
-    h=h1 + bh
-    hla = sigmoid(h)
-    oi1=np.dot(hla,wout)
-    oi= oi1+ bout
-    op = sigmoid(oi)
+    hla = sigmoid(np.dot(X,wh)+bh)
+    op = sigmoid(np.dot(hla,wout)+bout)
     
-    EO = y-op
-    og = dersig(op)
-    dop = EO* og
-    EH = dop.dot(wout.T)
-    hg = dersig(hla)
-    dhl = EH * hg
+    dop = (y-op)*dersig(op)
+    dhl = dop.dot(wout.T) * dersig(hla)
     wout += hla.T.dot(dop) *lr
     wh += X.T.dot(dhl) *lr
-print("Input: \n" + str(X))
-print("Actual Output: \n" + str(y))
+print("Input: \n",str(X))
+print("Actual Output: \n",str(y))
 print("Predicted Output: \n" ,op)
