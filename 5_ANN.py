@@ -4,7 +4,6 @@ y = np.array(([92], [86], [89]), dtype=float)
 X = X/np.amax(X,axis=0)
 y = y/100
 
-
 def sigmoid (x):
     return 1/(1 + np.exp(-x))
 
