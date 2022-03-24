@@ -1,9 +1,6 @@
 import csv, numpy as np
-from traceback import print_tb
 
-with open("3.csv", "r") as file:
-    read = csv.reader(file)
-    list = np.array(list(read))
+list=np.array(list(csv.reader(open("3.csv","r"))))
 
 concept = np.array(list[:,:-1])
 target = np.array(list[:,-1])
