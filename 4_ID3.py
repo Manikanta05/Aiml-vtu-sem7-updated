@@ -4,9 +4,9 @@ from math import *
 lines= list(csv.reader(open('4train.csv', 'r'))) 
 
 data= lines.pop(0) 
-print(data) 
-print() 
-print(lines) 
+# print(data) 
+# print() 
+# print(lines) 
 
 def entropy(pos, neg): 
     if pos==0 or neg==0: 
