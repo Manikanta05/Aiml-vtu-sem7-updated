@@ -34,7 +34,7 @@ def build(lines, data):
     root= max([[gain(lines,i,pos,neg),i] for i in range(sz)])[1] 
     fin, res= {},{} 
     uniq_attr= set([x[root] for x in lines]) 
-    print(">>>", uniq_attr) 
+#     print(">>>", uniq_attr) 
     for i in uniq_attr: 
         res[i]= build([x[:root]+x[root+1:] for x in lines if x[root]==i], data[:root]+data[root+1:]) 
     fin[data[root]]=res 
