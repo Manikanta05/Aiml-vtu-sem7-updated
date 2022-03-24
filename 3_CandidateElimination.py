@@ -25,7 +25,9 @@ for i in range(len(target)):
                 generic[j][j] = specific[j]
             else:
                 generic[j][j] = "?"
-
-    print("Step {}".format(i+1))
-    print("G{} = {}".format(i, generic))
-    print("S{} = {}".format(i, specific))
+                
+indices=[i for i,val in enumerate(generic) if val == ['?','?','?','?','?','?']]
+for i in indices:
+    generic.remove(['?','?','?','?','?','?'])
+print("Most General = {}".format( generic))
+print("Most Specific = {}".format(specific))
