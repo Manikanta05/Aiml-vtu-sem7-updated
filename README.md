@@ -1,5 +1,21 @@
+# Links
+- [Questions](#aiml-vtu-sem7-updated)
+- [Viva questions](#viva)
+- [Output](#outputs)
+
 # Aiml-vtu-sem7-updated
 ![ListOfPrograms](prgm_list.png)
+
+# VIVA
+1.What is the difference between clustering and classification?
+
+2.What is Machine Learning?
+
+3.What is Supervised, Unsupervised and reinforcement learning?
+
+4.Why EM is better than KMeans?
+
+5.
 
 # Outputs
 
