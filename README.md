@@ -7,15 +7,15 @@
 ![ListOfPrograms](prgm_list.png)
 
 # VIVA
-1.What is the difference between clustering and classification?
+## 1.What is the difference between clustering and classification?
+![](https://2.bp.blogspot.com/-LhyStdU3zD8/XEAobVEzJLI/AAAAAAAAANI/-1aSSlsUMUYD9JNEZIg7i0qWafIFmhx6gCLcBGAs/s1600/difference%2Bbetween%2Bclassification%2Band%2Bclustering%2Bin%2Bhindi.png)
+## 2.What is Machine Learning?
 
-2.What is Machine Learning?
+## 3.What is Supervised, Unsupervised and reinforcement learning?
 
-3.What is Supervised, Unsupervised and reinforcement learning?
+## 4.Why EM is better than KMeans?
 
-4.Why EM is better than KMeans?
-
-5.
+## 5.
 
 # Outputs
 
