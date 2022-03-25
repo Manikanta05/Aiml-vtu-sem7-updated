@@ -32,6 +32,5 @@ for i in range(len(target)):
     print("G{} = {}".format(i, str))
     print("S{} = {}".format(i, specific))
 
-
 print("Most General hypothesis = {}".format(str))
 print("Most Specific S = {}".format(specific))
