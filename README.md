@@ -23,6 +23,12 @@
 
 ## 8.Data validation vs testing ?
 
+## 9.What is centroid in kmeans and how do u determine ?
+
+## 10.Naive Bayes formula
+
+## 11.Forward propagation and backpropagation?
+
 # Outputs
 
 ## 1
