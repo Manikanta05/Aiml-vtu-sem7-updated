@@ -25,15 +25,15 @@ def localWeightRegression(xmat,ymat,k):
 def graphPlot(X,ypred):
     sortindex = X[:,1].argsort(0) #argsort - index of the smallest
     xsort = X[sortindex][:,0]
-    fig = plt.figure()
-    ax = fig.add_subplot(1,1,1)
-    ax.scatter(bill,tip, color='green')
-    ax.plot(xsort[:,1],ypred[sortindex], color = 'red', linewidth=5)
+    
+    plt.subplot(1,1,1)
+    plt.scatter(bill,tip, color='green')
+    plt.plot(xsort[:,1],ypred[sortindex], color = 'red', linewidth=5)
     plt.xlabel('Total bill')
     plt.ylabel('Tip')
     plt.show();
-# load data points
-data = pd.read_csv('9.csv')
+
+data = pd.read_csv('9.csv') # load data points
 bill = np.array(data.total_bill) # We use only Bill amount and Tips data
 tip = np.array(data.tip)
 mbill = np.mat(bill) # .mat will convert nd array is converted in 2D array
