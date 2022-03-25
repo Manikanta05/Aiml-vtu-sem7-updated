@@ -15,7 +15,13 @@
 
 ## 4.Why EM is better than KMeans?
 
-## 5.
+## 5.What is Perceptron?
+
+## 6.General Steps in Machine Learning?
+
+## 7.Collection of Data, Data preprocessing?
+
+## 8.Data validation vs testing ?
 
 # Outputs
 
