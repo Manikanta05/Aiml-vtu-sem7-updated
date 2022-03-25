@@ -45,7 +45,7 @@ By averaging the data points feature wise
 Forward Propagation is the way to move from the Input layer (left) to the Output layer (right) in the neural network. The process of moving from the right to left i.e backward from the Output to the Input layer is called the Backward Propagation.
 
 ## 12.If for P(C1/X) and P(C2/X) is found using naive bayes classifier which gives higher accuracy or which one would the model choose
-Greater the probability it gives higher accuracy
+Greatest among two classes gives higher accuracy
 
 ## 13.
 
