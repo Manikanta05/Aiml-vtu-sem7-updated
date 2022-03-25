@@ -1,9 +1,9 @@
 import csv, numpy as np,copy
 
-list=np.array(list(csv.reader(open("3.csv","r"))))
+data=np.array(list(csv.reader(open("3.csv","r"))))
 
-concept = np.array(list[:,:-1])
-target = np.array(list[:,-1])
+concept = np.array(data[:,:-1])
+target = np.array(data[:,-1])
 
 for i in range(len(target)):
     if(target[i] == "Y"):
