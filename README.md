@@ -29,6 +29,13 @@
 
 ## 11.Forward propagation and backpropagation?
 
+## 12.Explain feed forward network
+
+## 13.Naive Bayes theorem and formula
+
+## 14.If for P(C1/X) and P(C2/X) is found using naive bayes classifier which gives higher accuracy or which one would the model choose
+
+
 # Outputs
 
 ## 1
