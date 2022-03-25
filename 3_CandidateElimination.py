@@ -32,6 +32,6 @@ for i in range(len(target)):
     print("G{} = {}".format(i, str))
     print("S{} = {}".format(i, specific))
 
-#print("Step {}".format(i+1))
-print("Final G = {}".format( str))
-print("Final S = {}".format( specific))
+
+print("Final G = {}".format(str))
+print("Final S = {}".format(specific))
