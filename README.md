@@ -18,6 +18,7 @@
 ## 5.What is Perceptron?
 
 ## 6.General Steps in Machine Learning?
+![](https://d1m75rqqgidzqn.cloudfront.net/2019/10/what-is-machine-learning-7-steps-of-machine-learning.jpg)
 
 ## 7.Collection of Data, Data preprocessing?
 
