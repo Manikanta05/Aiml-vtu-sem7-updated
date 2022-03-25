@@ -33,5 +33,5 @@ for i in range(len(target)):
     print("S{} = {}".format(i, specific))
 
 
-print("Final G = {}".format(str))
-print("Final S = {}".format(specific))
+print("Most General hypothesis = {}".format(str))
+print("Most Specific S = {}".format(specific))
