@@ -1,4 +1,4 @@
-import csv, numpy as np
+import csv, numpy as np,copy
 
 list=np.array(list(csv.reader(open("3.csv","r"))))
 
