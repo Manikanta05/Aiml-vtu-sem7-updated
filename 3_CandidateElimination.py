@@ -25,9 +25,13 @@ for i in range(len(target)):
                 generic[j][j] = specific[j]
             else:
                 generic[j][j] = "?"
-                
-indices=[i for i,val in enumerate(generic) if val == ['?','?','?','?','?','?']]
-for i in indices:
-    generic.remove(['?','?','?','?','?','?'])
-print("Most General = {}".format( generic))
-print("Most Specific = {}".format(specific))
+    str=copy.copy(generic)
+    indices1=[i for i,val in enumerate(str) if val == ['?','?','?','?','?','?']]
+    for j in indices1:
+        str.remove(['?','?','?','?','?','?'])
+    print("G{} = {}".format(i, str))
+    print("S{} = {}".format(i, specific))
+
+#print("Step {}".format(i+1))
+print("Final G = {}".format( str))
+print("Final S = {}".format( specific))
