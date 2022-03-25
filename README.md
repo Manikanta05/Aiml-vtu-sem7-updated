@@ -25,9 +25,9 @@
 ![op](/Outputs/2.1.jpg)
 ![op](/Outputs/2.2.jpg)
 ## 3
-![op](/Outputs/3.jpg)
+![op](/Outputs/5New.jpeg)
 ## 4
-![op](/Outputs/4.jpg)
+![op](/Outputs/6New.jpeg)
 ## 5
 ![op](/Outputs/5.jpg)
 ## 6
