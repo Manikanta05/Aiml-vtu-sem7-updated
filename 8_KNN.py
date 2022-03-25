@@ -8,7 +8,7 @@ print("Iris Data set loaded...")
 x_train, x_test, y_train, y_test = train_test_split(iris.data,iris.target,test_size=0.1)
 print("Dataset is split into training and testing...")
 print("Size of trainng data and its label",x_train.shape,y_train.shape)
-print("Size of trainng data and its label",x_test.shape, y_test.shape)
+print("Size of testing data and its label",x_test.shape, y_test.shape)
 
 for i in range(len(iris.target_names)):
     print("Label", i , "-",str(iris.target_names[i]))
