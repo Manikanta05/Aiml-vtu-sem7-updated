@@ -8,13 +8,13 @@
 
 # VIVA
 ## 1.What is the difference between clustering and classification?
-![](https://2.bp.blogspot.com/-LhyStdU3zD8/XEAobVEzJLI/AAAAAAAAANI/-1aSSlsUMUYD9JNEZIg7i0qWafIFmhx6gCLcBGAs/s1600/difference%2Bbetween%2Bclassification%2Band%2Bclustering%2Bin%2Bhindi.png)
+<img src="https://2.bp.blogspot.com/-LhyStdU3zD8/XEAobVEzJLI/AAAAAAAAANI/-1aSSlsUMUYD9JNEZIg7i0qWafIFmhx6gCLcBGAs/s1600/difference%2Bbetween%2Bclassification%2Band%2Bclustering%2Bin%2Bhindi.png" height=900 width=750> </br>
 ## 2.What is Machine Learning?
 ## A model to gain knowledge and predict for upcoming data.
 
 ## 3.What is Supervised, Unsupervised and reinforcement learning?
-Supervised-labelled does classification
-unsupervised-not labeled finds similarity
+Supervised-labelled does classification</br>
+unsupervised-not labeled finds similarity</br>
 reinforcement-continous learning by reward and penalty
 
 ## 4.Why EM is better than KMeans?
@@ -27,15 +27,15 @@ reinforcement-continous learning by reward and penalty
 ![](https://d1m75rqqgidzqn.cloudfront.net/2019/10/what-is-machine-learning-7-steps-of-machine-learning.jpg)
 
 ## 7.Collection of Data, Data preprocessing?
-Collection of data-identifying sources,data quality,new features
+Collection of data-identifying sources,data quality,new features</br>
 Data preprocessing- data cleaning,filtering,removing outliers
 
 ## 8.Data validation vs testing ?
-Validation set is used for determining the parameters of the model, 
+Validation set is used for determining the parameters of the model, </br>
 and test set is used for evaluate the performance of the model
 
 ## 9.What is centroid in kmeans and how do u determine ?
-Centroid- imaginary center of cluster
+Centroid- imaginary center of cluster</br>
 By averaging the data points feature wise
 
 ## 10.Naive Bayes formula
@@ -47,9 +47,23 @@ Forward Propagation is the way to move from the Input layer (left) to the Output
 ## 12.If for P(C1/X) and P(C2/X) is found using naive bayes classifier which gives higher accuracy or which one would the model choose
 Greatest among two classes gives higher accuracy
 
-## 13.
+## 13.Is KNN a classification or clustering?
+KNN is a supervised learning algorithm used for classification.
 
-## 14.
+## 14.Applications
+A* : pathfinding problem in applications such as video games </br>
+AO*:
+Candidate Elimination:
+ID3:
+ANN:
+Naive Bayes:
+KMeans:
+KNN:
+Regression:
+
+## 15. Overfitting and underfitting
+
+## 16.Turing Test
 
 # Outputs
 
