@@ -91,20 +91,6 @@ class Graph:
                     self.setStatus(childNode,0)   # set the status of child node to 0(needs exploration)
                     self.aoStar(childNode, False) # Minimum Cost child node is further explored with backtracking status as false
                  
-        
-                                       
-h1 = {'A': 1, 'B': 6, 'C': 2, 'D': 12, 'E': 2, 'F': 1, 'G': 5, 'H': 7, 'I': 7, 'J': 1, 'T': 3}
-graph1 = {
-    'A': [[('B', 1), ('C', 1)], [('D', 1)]],
-    'B': [[('G', 1)], [('H', 1)]],
-    'C': [[('J', 1)]],
-    'D': [[('E', 1), ('F', 1)]],
-    'G': [[('I', 1)]]   
-}
-G1= Graph(graph1, h1, 'A')
-G1.applyAOStar() 
-G1.printSolution()
-
 h2 = {'A': 1, 'B': 6, 'C': 12, 'D': 10, 'E': 4, 'F': 4, 'G': 5, 'H': 7}  # Heuristic values of Nodes 
 graph2 = {                                        # Graph of Nodes and Edges 
     'A': [[('B', 1), ('C', 1)], [('D', 1)]],      # Neighbors of Node 'A', B, C & D with repective weights 
@@ -114,4 +100,16 @@ graph2 = {                                        # Graph of Nodes and Edges
 
 G2 = Graph(graph2, h2, 'A')                       # Instantiate Graph object with graph, heuristic values and start Node
 G2.applyAOStar()                                  # Run the AO* algorithm
-G2.printSolution()                                # Print the solution graph as output of the AO* algorithm search
+G2.printSolution()                                # Print the solution graph as output of the AO* algorithm search        
+                                       
+# h1 = {'A': 1, 'B': 6, 'C': 2, 'D': 12, 'E': 2, 'F': 1, 'G': 5, 'H': 7, 'I': 7, 'J': 1, 'T': 3}
+# graph1 = {
+#     'A': [[('B', 1), ('C', 1)], [('D', 1)]],
+#     'B': [[('G', 1)], [('H', 1)]],
+#     'C': [[('J', 1)]],
+#     'D': [[('E', 1), ('F', 1)]],
+#     'G': [[('I', 1)]]   
+# }
+# G1= Graph(graph1, h1, 'A')
+# G1.applyAOStar() 
+# G1.printSolution()
