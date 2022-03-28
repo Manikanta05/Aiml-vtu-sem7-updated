@@ -12,7 +12,7 @@ def aStarAlgo(start_node, stop_node):
                 if n == None or g[v] + heuristic(v) < g[n] + heuristic(n):
                     n = v             
                      
-            if n == stop_node or Graph_nodes[n] == None:
+            if n == stop_node :
                 pass
             else:
                 for (m, weight) in get_neighbors(n):
@@ -50,10 +50,7 @@ def aStarAlgo(start_node, stop_node):
         return None
    
 def get_neighbors(v):
-    if v in Graph_nodes:
-        return Graph_nodes[v]
-    else:
-        return None
+    return Graph_nodes.get(v,None)
 def heuristic(n):
         H_dist = {
             'A': 10,'B': 8,'C': 5,'D': 7,'E': 3,'F': 6,
